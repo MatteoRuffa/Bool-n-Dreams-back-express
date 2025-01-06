@@ -1,7 +1,9 @@
 "use strict";
 
 const express = require('express');
-const connectDB = require('./srv/database/mongodb/db');
+const path = require('path');
+const connectDB = require(path.join(__dirname, 'src', 'lib', 'database', 'mongodb', 'db'));
+
 
 const app = express();
 
