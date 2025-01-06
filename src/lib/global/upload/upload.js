@@ -29,6 +29,6 @@ const multipleUpload = async (req, res) => {
     });
   }
 };
-module.exports = {
-  multipleUpload: multipleUpload,
-};
+// module.exports = {
+//   multipleUpload: multipleUpload,
+// };
